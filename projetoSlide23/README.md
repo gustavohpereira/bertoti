@@ -20,4 +20,5 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ## Diagram used in this project
 
-![image](https://user-images.githubusercontent.com/108089562/227500602-c1fdd604-51c4-497f-8c25-7e775757c7d2.png)
+![image](https://github.com/gustavohpereira/bertoti/assets/108089562/9cdc5a2a-62a3-4cee-a0b3-3bb62f42fe96)
+
