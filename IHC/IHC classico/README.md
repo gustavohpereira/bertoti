@@ -21,11 +21,15 @@ a Heuristica 3 diz que o usuario precisa ter total liberdade, e ter rotas de fug
    - Ao tentar realizar o login no sistema, foi observado que, ao ocorrer um erro, a mensagem de feedback é apresentada em cinza. Essa escolha de cor para indicar um erro pode não estar alinhada com a expectativa do usuário, pois, tradicionalmente, erros são frequentemente associados à cor vermelha.
      ![image](https://github.com/gustavohpereira/bertoti/assets/108089562/e4ccef54-c552-438f-8294-2595acd5174e)
  
-    
+ ## Heurística 4: consistência e padronização  
+
+ A heurística 4 de usabilidade, "consistência e padronização", diz que os usuários devem ser capazes de prever o que acontecerá com base em suas experiências anteriores. Isso significa que as interfaces devem seguir padrões consistentes, usando os mesmos elementos de interface, terminologia e símbolos.
+- a tela inicial do siga, a de avisos, difere totalmente a padronização das diversas outras telas
+![image](https://github.com/gustavohpereira/bertoti/assets/108089562/acdc134d-9adb-4d6a-96b1-619695d46c00)
+
 
 ## Heurística 5: Prevenção de erros
-A heurística "Prevenção de Erros" destaca a importância de projetar a interface de modo a evitar erros sempre que possível, proporcionando uma experiência mais suave para os usuários. Vamos analisar um problema específico relacionado ao botão de login que não confirma com o usuário se ele realmente deseja realizar essa ação.
-
+A heurística "Prevenção de Erros" destaca a importância de projetar a interface de modo a evitar erros sempre que possível, proporcionando uma experiência mais suave para os usuários.
 
   - O botão "Siga" desloga o usuário sem aviso, possibilitando o erro de um click acidental
     ![image](https://github.com/gustavohpereira/bertoti/assets/108089562/ca676ca4-c9e9-4ecd-b959-83f838fe7c20)
