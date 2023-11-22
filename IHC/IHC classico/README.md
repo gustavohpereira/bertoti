@@ -6,8 +6,15 @@ Neste trabalho, analiso a aplicação das 10 heurísticas de usabilidade em inte
 - [Facebook](https://www.facebook.com): Avaliação da flexibilidade e eficiência de uso.
 - [SIGA](https://siga.cps.sp.gov.br): Avaliação da prevenção de erros, design estético e minimalista, e ajuda/documentação.
 
+## Heurística 1: Visibilidade do Status do Sistema e Heurística 3: controle do usuario e liberdade
 
-    
+a Heuristica 1 destaca a importância de manter os usuários informados sobre o que está acontecendo no sistema através de feedback apropriado. Em outras palavras, o sistema deve fornecer feedback claro e imediato para que os usuários estejam cientes do estado atual, seja durante a execução de uma ação, carregamento de informações ou ao ocorrer um erro.
+a Heuristica 3 diz que o usuario precisa ter total liberdade, e ter rotas de fugas, caso queira voltar
+
+
+- um bom exemplo é no google collab, onde ele exibe para o usuario o estado da celula, se esta rodando, se esta parado e ao mesmo tempo oferece uma rota de escape para o usuario, ele pode parar, prosseguir e abortar processos no programa
+![image](https://github.com/gustavohpereira/bertoti/assets/108089562/dd047b56-0304-4823-8d2b-1929c8edcd7a) 
+
 
 ## Heurística 2: Correspondência entre o sistema e o mundo real
 
