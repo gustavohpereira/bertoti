@@ -5,6 +5,7 @@ Neste trabalho, analiso a aplicação das 10 heurísticas de usabilidade em inte
 ## Sites Analisados
 - [Facebook](https://www.facebook.com): Avaliação da flexibilidade e eficiência de uso.
 - [SIGA](https://siga.cps.sp.gov.br): Avaliação da prevenção de erros, design estético e minimalista, e ajuda/documentação.
+- Google Collab
 
 ## Heurística 1: Visibilidade do Status do Sistema e Heurística 3: controle do usuario e liberdade
 
