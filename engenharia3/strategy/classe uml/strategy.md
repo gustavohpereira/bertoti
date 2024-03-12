@@ -1,0 +1,1 @@
+[Link para o diagrama](https://app.diagrams.net/#G1fKMj9lE9TF7lBqT2MySG-sy6PFYd9fws#%7B"pageId"%3A"C5RBs43oDa-KdzZeNtuy"%7D)
