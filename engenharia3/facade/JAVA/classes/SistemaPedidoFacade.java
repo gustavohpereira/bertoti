@@ -1,23 +1,23 @@
 package classes;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class SistemaPedidoFacade {
-    // Atributos (possible attributes based on the code snippet)
-    private List<Pedido> pedidos; // list of orders
+    
+    private List<Pedido> pedidos = new ArrayList<>(); 
 
-    //Métodos (possible methods based on the code snippet)
-    public List<Pedido> getPedidos() { // get all orders
+
+    public List<Pedido> getPedidos() { 
         return pedidos;
     }
 
-    public void registrarPedidos(String nome, int preco) { // register new orders
+    public void registrarPedidos(String nome, int preco) { 
         Pedido novoPedido = new Pedido(nome, preco);
-        System.out.println(novoPedido);
         pedidos.add(novoPedido);
     }
 
-    public int getPrecoTotal() { // get total price
+    public int getPrecoTotal() { 
         int totalPreco = 0;
         for (Pedido pedido : pedidos) {
             totalPreco += pedido.getPreco();

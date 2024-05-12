@@ -5,8 +5,6 @@ import classes.remunerations.RemuneracaoPadrao;
 
 public class Application {
      public static void main(String[] args) {
-
-
         Funcionario f = new Funcionario(1000, 10);
 
 

@@ -1,6 +1,7 @@
 import java.util.List;
-import engenharia3.facade.JAVA.classes.Pedido;
-import engenharia3.facade.JAVA.classes.SistemaPedidoFacade;
+
+import classes.SistemaPedidoFacade;
+import classes.Pedido;
 
 public class Application {
    
@@ -15,8 +16,10 @@ public class Application {
 
         
         // Obter todos os pedidos
+        
         List<Pedido> pedidos = sistemaPedidoFacade.getPedidos();
         for (Pedido pedido : pedidos) {
+
             System.out.println("Nome do Pedido: " + pedido.getNome());
             System.out.println("Preço do Pedido: " + pedido.getPreco());
             System.out.println("----------------------");

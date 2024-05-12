@@ -1,21 +1,20 @@
-package engenharia3.facade.JAVA.classes;
+package classes;
 
 public class Pedido {
-     // Atributos (possible attributes based on the code snippet)
-    private String nome; // name of the order
-    private int preco; // price of the order
+    private String nome; 
+    private int preco; 
 
-    //Métodos (possible methods based on the code snippet)
     public Pedido(String nome, int preco) {
         this.nome = nome;
         this.preco = preco;
+        System.out.println(nome + " - " + preco);
     }
 
-    public String getNome() { // get order name
+    public String getNome() { 
         return nome;
     }
 
-    public int getPreco() { // get order price
+    public int getPreco() {
         return preco;
     }
 }

@@ -1,19 +1,32 @@
 package engenharia3.compose;
 
+import engenharia3.compose.classes.Book;
+import engenharia3.compose.classes.BookSection;
+
 public class Application {
-    Composite rootComposite = new Composite();
 
-    // Add leaf components to the root composite
-    rootComposite.add(new Leaf("Leaf 1"));
-    rootComposite.add(new Leaf("Leaf 2"));
-    rootComposite.add(new Leaf("Leaf 3"));
+ public static void main(String[] args) {
+        BookSection fictionSection = new BookSection("Ficção");
+        BookSection nonFictionSection = new BookSection("Não Ficção");
 
-    // Create a child composite and add it to the root composite
-    Composite childComposite = new Composite();
-    childComposite.add(new Leaf("Leaf 4"));
-    childComposite.add(new Leaf("Leaf 5"));
-    rootComposite.add(childComposite);
+        BookSection fantasySection = new BookSection("Fantasia");
+        BookSection scienceFictionSection = new BookSection("Ficção Científica");
 
-    // Perform the operation on the root composite
-    rootComposite.operation();
+        Book harryPotter = new Book("Harry Potter e a Pedra Filosofal", "J.K. Rowling");
+        Book dune = new Book("Duna", "Frank Herbert");
+
+        fictionSection.addComponent(fantasySection);
+        fictionSection.addComponent(scienceFictionSection);
+
+        fantasySection.addComponent(new Book("O Hobbit", "J.R.R. Tolkien"));
+        fantasySection.addComponent(new Book("As Crônicas de Nárnia", "C.S. Lewis"));
+
+        scienceFictionSection.addComponent(dune);
+
+        // Exibindo a biblioteca
+        System.out.println("Livros na Biblioteca:");
+        fictionSection.displayInfo();
+        System.out.println();
+        nonFictionSection.displayInfo();
+    }
 }

@@ -4,7 +4,7 @@ public class DivulgadorVagas {
     private Subscriber[] subscribers;
 
     public DivulgadorVagas() {
-        this.subscribers = new Subscriber[0];
+    this.subscribers = new Subscriber[0];
     }
 
     public void subscribe(Subscriber subscriber) {

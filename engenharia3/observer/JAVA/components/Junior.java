@@ -2,10 +2,7 @@ public class Junior implements Subscriber {
 
     @Override
     public void update(String context) {
-        sendEmailToAdmin(context);
+        System.out.println("Novo comentário: " + context);
     }
 
-    private void sendEmailToAdmin(String context) {
-        // Enviar e-mail para o administrador com o novo comentário
-    }
 }
