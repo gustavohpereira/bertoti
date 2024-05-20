@@ -1,1 +1,2 @@
-![image](https://github.com/gustavohpereira/bertoti/assets/108089562/79260864-e643-48e8-bd79-3ad9cf1a0a83)
+![image](https://github.com/gustavohpereira/bertoti/assets/108089562/b1b2ba0b-40c1-480b-b9c9-ab6b9585d86d)
+
