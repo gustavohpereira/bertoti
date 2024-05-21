@@ -7,27 +7,18 @@ public class Application {
    
 
     public static void main(String[] args) {
-        SistemaPedidoFacade sistemaPedidoFacade = new SistemaPedidoFacade();
-
-        // Registrar novos pedidos
-        sistemaPedidoFacade.registrarPedidos("Pedido 1", 100);
-        sistemaPedidoFacade.registrarPedidos("Pedido 2", 200);
-        sistemaPedidoFacade.registrarPedidos("Pedido 3", 300);
-
+        SistemaPedidoFacade sistema = new SistemaPedidoFacade();
         
-        // Obter todos os pedidos
+        sistema.registrarPedidos("Pizza", 25, 2, "Pizza de Calabresa");
+        sistema.registrarPedidos("Refrigerante", 5, 3, "Lata de 350ml");
         
-        List<Pedido> pedidos = sistemaPedidoFacade.getPedidos();
-        for (Pedido pedido : pedidos) {
-
-            System.out.println("Nome do Pedido: " + pedido.getNome());
-            System.out.println("Preço do Pedido: " + pedido.getPreco());
-            System.out.println("----------------------");
-        }
-
-        // Obter o preço total dos pedidos
-        int precoTotal = sistemaPedidoFacade.getPrecoTotal();
-        System.out.println("Preço total dos pedidos: " + precoTotal);
+        sistema.imprimirPedidos();
+        
+        sistema.aplicarDescontoEmPedido(0, 10); 
+        
+        sistema.imprimirPedidos();
+        
+        System.out.println("Preço total dos pedidos: " + sistema.getPrecoTotal());
     }
 
 }
